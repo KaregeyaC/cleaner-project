@@ -9,8 +9,7 @@ const Navbal = () => {
         <img src={Logo} alt="logo" />
       </div>
       <div className=" flex gap-5">
-        <Link to="/">Home</Link>
-        <Link to="/services">Services</Link>
+        <Link to="/">Services</Link>
         <Link to="/contact">Contact</Link>
       </div>
     </nav>

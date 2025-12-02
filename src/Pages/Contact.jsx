@@ -1,9 +1,16 @@
 
+import ContactCards from "../Components/ContactCards"
+import Cedro1 from "./Cedro1"
+
+
 
 const Contact = () => {
   return (
     <div>
-      Contact
+      <ContactCards />
+      <div >
+      <Cedro1 />
+      </div>
     </div>
   )
 }

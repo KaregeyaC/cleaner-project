@@ -55,7 +55,9 @@ const Card = () => {
   ];
 
   return (
-    <section className="grid grid-cols-3 gap-5">
+    <section>
+      <h1 className="text-center text-5xl py-5 font-bold ">Our services</h1>
+    <section className="grid grid-cols-3 gap-5 w-3/4 mx-auto pt-10">
       {cards.map((card) => (
         <Cards
           key={card.id}
@@ -64,6 +66,7 @@ const Card = () => {
           image={card.image}
         />
       ))}
+    </section>
     </section>
   );
 };
