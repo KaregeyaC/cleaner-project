@@ -2,7 +2,7 @@
 
 const World = ({ image }) => {
     return (
-        <div className="grid grid-cols-2 w-3/4 mx-auto">
+        <div className="grid grid-cols-2 w-3/4 mx-auto  grid grid-cols-1 md:grid-cols-2 gap-10">
             <ul className="font-bold pt-10 text-lg leading-10">
                 <li>Istanbul</li>
                 <li>Moskow</li>

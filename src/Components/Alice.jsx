@@ -3,7 +3,7 @@ import materials from "../assets/materials.png";
 const Alice = () => {
     return (
         <>
-        <section className="relative w-full h-screen pt-60">
+        <section className="relative  pt-60 grid grid-cols-1 md:grid-cols-1 gap-10">
             
             <div 
                 className="absolute inset-0 bg-cover bg-center"

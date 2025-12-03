@@ -1,10 +1,10 @@
 const Space = ({ image }) => {
   return (
-    <div className=" ">
+    <div className=" grid-cols-2 gap-10">
       <div
         className="relative bg-cover bg-center bg-no-repeat text-3xl p-10 rounded-xl "
         style={{ backgroundImage: `url(${image})`, minHeight: "400px" }}
-    >
+      >
 
         <div className="absolute inset-0  rounded-xl"></div>
 
